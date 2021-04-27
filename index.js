@@ -101,9 +101,9 @@ lolKey = up.LolHumanKey
 //--Kontak
 const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
-+ 'FN:-·=»‡«=·- 𝕤𝔸Ｔ𝐚Ⓝ -·=»‡«=·-\n' // Nama
-+ 'ORG:♞☞  𝕊𝓐тคŇ  🐲🏆;\n' // Nama bot
-+ 'TEL;type=CELL;type=VOICE;waid=50373488366:+503 7348-8366\n' // Nomor bot
++ 'FN:-·=𝙺-13\n' // Nama
++ 'ORG:𝙺-13;\n' // Nama bot
++ 'TEL;type=CELL;type=VOICE;waid=51935684086:+51 935 684 068\n' // Nomor bot
 + 'END:VCARD' 
 
 
@@ -578,24 +578,23 @@ case '?':
   if (!isRegister) return reply(mess.only.daftarB)
   uptime = process.uptime()
   const Menu = {
-text: `♞☞  𝕊𝓐тคŇ  🐲🏆
+text: '𝙺-13'
 
 Hola *${pushname}* 
 
 〘 *BOT* 〙
 ‣ Prefijo:「 ${prefix} 」
-‣ Yo soy: ♞☞  𝕊𝓐тคŇ  🐲🏆
+‣ Yo soy: Sky-Bot
 ‣ Tiempo encencido: *${kyun(uptime)}*
 ‣ Modo: *ON*
 ‣ Grupo:  *${groupName}*
 ‣ Número de grupos: *${_registered.length}*
 ‣ Número de chats: *${totalchat.length}*
-‣ Numero del Dueño wa.me/50373488366 
 
 ‣ GRUPO OFICIAL https://chat.whatsapp.com/JyD8Vj11LPu1TofWhWnYMA
 
 ┏━━━━━━━━━━━━━━━━━━━━
-┃───〘 ♞☞  𝕊𝓐тคŇ  🐲🏆 〙───
+┃───〘    𝙺-13    〙───
 ┃━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Info*
 ┃ _Información del bot_
@@ -844,7 +843,7 @@ case 'ceksaldo':
   uptime = process.uptime()
   teks = `*‣ Nombre del bot* : ${me.name}
   ‣ *Número del bot* : @${me.jid.split('@')[0]}
-  ‣ *Dueño* : Satan
+  ‣ *Dueño* : Kytzia
   ‣ *Prefijo* : ${prefix}
   ‣ *Usuarios bloqueados* : ${blocked.length}
   ‣ *Tiempo activo* : ${kyun(uptime)}
@@ -1015,7 +1014,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `Kytzia`
 })
 
 } catch {
@@ -1039,7 +1038,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `Kytzia`
 })
 
 } catch {
@@ -1093,7 +1092,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `Kytzia`
 })
 
 break
@@ -1118,7 +1117,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Kytxia`
   })
   
   } catch {
@@ -1148,7 +1147,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Kytzia`
   })
   
   } catch {
@@ -1174,7 +1173,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Kytzia🏆`
   })
   
   } catch {
@@ -1200,7 +1199,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Kytzia 🐲🏆`
   })
   
   } catch {
